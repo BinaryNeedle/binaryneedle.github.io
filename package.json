@@ -10,8 +10,11 @@
     "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
+    "@tsparticles/engine": "^3.7.1",
     "bnn-porto": "file:",
     "gh-pages": "^6.2.0",
+    "particles.js": "^2.0.0",
+    "tsparticles": "^3.7.1",
     "vue": "^3.5.13"
   },
   "devDependencies": {
